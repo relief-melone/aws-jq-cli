@@ -6,7 +6,6 @@ DATE=$3
 shift 3
 BYPASS=$@
 
-echo "$BYPASS"
 if [[ $1 == "help" ]]; then
   echo -e "\n\nUse to get the VersionId of the newest File. Use with following arguments \n\
   1. BUCKET-NAME\n\
